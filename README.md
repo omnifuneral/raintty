@@ -25,7 +25,7 @@ Ever felt your terminal could use a little more… atmosphere? **`raintty`** is 
 ### Installation
 Clone the repository:
 ```bash
-git clone https://github.com/your-username/raintty.git
+git clone https://github.com/omnifuneral/raintty.git
 cd raintty
 ```
 
