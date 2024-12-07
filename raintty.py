@@ -153,7 +153,7 @@ def main(stdscr, intensity, duration, wind, lightning, dynamic, randomness):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="`raintty`: A whimsical terminal rain simulator.")
-    parser.add_argument("-i", "--intensity", type=float, default=0.4, help="Rain intensity (default: 0.4).")
+    parser.add_argument("-i", "--intensity", type=float, default=0.3, help="Rain intensity (default: 0.4).")
     parser.add_argument("-d", "--duration", type=float, default=None, help="Simulation duration in seconds.")
     parser.add_argument("-w", "--wind", type=int, default=0, help="Initial wind intensity.")
     parser.add_argument("-l", "--lightning", action="store_true", help="Enable lightning flashes.")
